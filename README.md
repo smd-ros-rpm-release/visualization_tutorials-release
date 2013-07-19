@@ -1,3 +1,28 @@
+## visualization_tutorials - 0.8.1-0
+
+User `william@dosa` released the packages in the `visualization_tutorials` repository by running `/usr/local/bin/bloom-release -t hydro -r hydro visualization_tutorials` on `Fri, 19 Jul 2013 23:57:10 -0000`
+
+These packages were released:
+- `interactive_marker_tutorials`
+- `librviz_tutorial`
+- `rviz_plugin_tutorials`
+- `rviz_python_tutorial`
+- `visualization_marker_tutorials`
+- `visualization_tutorials`
+
+Version of package(s) in repository `visualization_tutorials`:
+- rosdistro version: `0.8.0-0`
+- old version: `0.8.0-0`
+- new version: `0.8.1-0`
+
+Versions of tools used:
+- bloom version: `0.4.3`
+- catkin_pkg version: `0.1.19`
+- rosdep version: `0.10.19`
+- rosdistro version: `0.2.13`
+- vcstools version: `0.1.31`
+
+
 ## visualization-tutorials - 0.8.0-0
 
 User `hersh@spf` released the packages in the `visualization-tutorials` repository by running `/usr/bin/bloom-release visualization-tutorials --track hydro --rosdistro hydro` on `Mon, 01 Jul 2013 16:35:39 -0000`
