@@ -1,0 +1,12 @@
+Source: ros-hydro-visualization-marker-tutorials
+Section: misc
+Priority: extra
+Maintainer: "David Gossow <dgossow@willowgarage.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-roscpp, ros-hydro-visualization-msgs
+Homepage: http://ros.org/wiki/visualization_marker_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-hydro-visualization-marker-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-roscpp, ros-hydro-visualization-msgs
+Description: The visulalization_marker_tutorials package
