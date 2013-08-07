@@ -17,7 +17,7 @@ The source code for this tutorial is in the librviz_tutorial
 package. You can check out the source directly or (if you use Ubuntu)
 you can just apt-get install the pre-compiled Debian package like so::
 
-    sudo apt-get install ros-fuerte-visualization-tutorials
+    sudo apt-get install ros-hydro-visualization-tutorials
 
 The running application looks like this:
 
@@ -27,35 +27,35 @@ The Code
 --------
 
 The code for myviz is in these files: 
-:svndir:`src/main.cpp`,
-:svndir:`src/myviz.h`, and
-:svndir:`src/myviz.cpp`.
+:codedir:`src/main.cpp`,
+:codedir:`src/myviz.h`, and
+:codedir:`src/myviz.cpp`.
 
 main.cpp
 ^^^^^^^^
 
-The full text of main.cpp is here: :svndir:`src/main.cpp`
+The full text of main.cpp is here: :codedir:`src/main.cpp`
 
 .. tutorial-formatter:: ../main.cpp
 
 myviz.h
 ^^^^^^^
 
-The full text of myviz.h is here: :svndir:`src/myviz.h`
+The full text of myviz.h is here: :codedir:`src/myviz.h`
 
 .. tutorial-formatter:: ../myviz.h
 
 myviz.cpp
 ^^^^^^^^^
 
-The full text of myviz.cpp is here: :svndir:`src/myviz.cpp`
+The full text of myviz.cpp is here: :codedir:`src/myviz.cpp`
 
 .. tutorial-formatter:: ../myviz.cpp
 
 Building
 --------
 
-The full text of CMakeLists.txt is here: :svndir:`CMakeLists.txt`
+The full text of CMakeLists.txt is here: :codedir:`CMakeLists.txt`
 
 .. tutorial-formatter:: ../../CMakeLists.txt
 
