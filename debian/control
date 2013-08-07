@@ -1,0 +1,12 @@
+Source: ros-hydro-interactive-marker-tutorials
+Section: misc
+Priority: extra
+Maintainer: David Gossow <dgossow@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-interactive-markers, ros-hydro-roscpp, ros-hydro-tf, ros-hydro-visualization-msgs
+Homepage: http://ros.org/wiki/interactive_marker_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-hydro-interactive-marker-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-interactive-markers, ros-hydro-roscpp, ros-hydro-tf, ros-hydro-visualization-msgs
+Description: The interactive_marker_tutorials package
