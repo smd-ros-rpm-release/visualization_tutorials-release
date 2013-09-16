@@ -1,0 +1,12 @@
+Source: ros-hydro-rviz-plugin-tutorials
+Section: misc
+Priority: extra
+Maintainer: Dave Hershberger <hersh@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-rviz
+Homepage: http://ros.org/wiki/rviz_plugin_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rviz-plugin-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-rviz
+Description: Tutorials showing how to write plugins for RViz.
