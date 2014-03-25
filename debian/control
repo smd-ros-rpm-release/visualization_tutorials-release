@@ -1,0 +1,12 @@
+Source: ros-indigo-visualization-tutorials
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin
+Homepage: http://ros.org/wiki/visualization_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-indigo-visualization-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-interactive-marker-tutorials, ros-indigo-librviz-tutorial, ros-indigo-rviz-plugin-tutorials, ros-indigo-rviz-python-tutorial, ros-indigo-visualization-marker-tutorials
+Description: Metapackage referencing tutorials related to rviz and visualization.
