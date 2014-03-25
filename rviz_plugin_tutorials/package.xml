@@ -1,10 +1,10 @@
 <package>
   <name>rviz_plugin_tutorials</name>
-  <version>0.8.4</version>
+  <version>0.9.0</version>
   <description>
      Tutorials showing how to write plugins for RViz.
   </description>
-  <maintainer email="hersh@willowgarage.com">Dave Hershberger</maintainer>
+  <maintainer email="william@osrfoundation.org">William Woodall</maintainer>
   <license>BSD</license>
 
   <url>http://ros.org/wiki/rviz_plugin_tutorials</url>
