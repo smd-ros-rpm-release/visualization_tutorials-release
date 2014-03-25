@@ -1,0 +1,12 @@
+Source: ros-indigo-interactive-marker-tutorials
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin, ros-indigo-interactive-markers, ros-indigo-roscpp, ros-indigo-tf, ros-indigo-visualization-msgs
+Homepage: http://ros.org/wiki/interactive_marker_tutorials
+Standards-Version: 3.9.2
+
+Package: ros-indigo-interactive-marker-tutorials
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-interactive-markers, ros-indigo-roscpp, ros-indigo-tf, ros-indigo-visualization-msgs
+Description: The interactive_marker_tutorials package
